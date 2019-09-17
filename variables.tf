@@ -13,7 +13,7 @@ variable "instance_type" {
 }
 variable "name" {
 	description = "Instance name"
-	default = "Test1"
+	default = "Test"
 }
 
 variable "ami" {
