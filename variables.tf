@@ -13,7 +13,7 @@ variable "instance_type" {
 }
 variable "name" {
 	description = "Instance name"
-	default = "Jenkins_Pipeline"
+	default = "Test_Jenkins_Pipeline"
 }
 
 variable "ami" {
