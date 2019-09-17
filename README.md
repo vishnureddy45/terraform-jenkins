@@ -25,7 +25,7 @@ You will need to create a bucket and reference the bucket name in the following 
 ```
 terraform {
   backend "s3" {
-    bucket = "terraform-bucket-alex"
+    bucket = "terraform-jenkins-s3"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
@@ -41,6 +41,4 @@ terraform {
 * [Pipeline Plugin](https://wiki.jenkins.io/display/JENKINS/Pipeline+Plugin)
 * [CloudBees AWS Credentials Plugin](https://wiki.jenkins.io/display/JENKINS/CloudBees+AWS+Credentials+Plugin)
 
-## Questions?
 
-Open an issue.
