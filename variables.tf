@@ -11,6 +11,10 @@ variable "instance_type" {
   description = "AWS instance type"
   default     = "t2.micro"
 }
+variable "name" {
+	description = "Instance name"
+	default = "Test"
+}
 
 variable "ami" {
   description = "Base AMI to launch the instances"
