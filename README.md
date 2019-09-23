@@ -5,7 +5,7 @@
 This repository will demonstrate an example GitOps workflow with Terraform and Jenkins.
 
 The configuration in this repository was run using `Terraform v0.11.13`.
-
+448a1a09e8eff223429c69136cb846d54c5cd5d7
 
 ## Requirements
 
